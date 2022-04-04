@@ -1,0 +1,21 @@
+.profile-cont {
+  width: 50%;
+  height: 100%;
+  top: 0;
+  margin-left: 0;
+  position: absolute;
+  right: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  //   padding-top: 15%;
+}
+.profile-pic {
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
+  display: flex;
+  opacity: 1;
+}
