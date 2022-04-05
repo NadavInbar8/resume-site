@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react';
 import profile from '../../assets/pics/profile.jpg';
-import Loader from 'react-loaders';
 import AnimatedLetters from '../AnimatedLetters';
 import './About.scss';
 

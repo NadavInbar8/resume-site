@@ -11,7 +11,7 @@ import './Work.scss';
 const Work = () => {
   const [letterClass, setLetterClass] = useState('text-animate');
 
-  const [works, setWorks] = useState([
+  const [works] = useState([
     {
       name: 'LoR Guardian',
       pics: [LoRGuardian1, LoRGuardian2, LoRGuardian3],
