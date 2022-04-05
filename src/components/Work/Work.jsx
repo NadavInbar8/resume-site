@@ -6,6 +6,7 @@ import LoRGuardian2 from '../../assets/pics/LoR-Guardian-2.jpg';
 import LoRGuardian3 from '../../assets/pics/LoR-Guardian-3.jpg';
 import Taskflow1 from '../../assets/pics/Taskflow-1.jpg';
 import Taskflow2 from '../../assets/pics/Taskflow-2.jpg';
+import BirdTracker1 from '../../assets/pics/BirdTracker-1.jpg';
 import './Work.scss';
 
 const Work = () => {
@@ -22,7 +23,13 @@ const Work = () => {
       name: 'Taskflow',
       pics: [Taskflow1, Taskflow2],
       strArray: ['T', 'a', 's', 'k', 'f', 'l', 'o', 'w'],
-      site: 'https://taskflow-nadav-tom-oded.herokuapp.com/',
+      site: 'https://taskflow-nadav-tom-oded.herokuapp.com',
+    },
+    {
+      name: 'Bird Tracker',
+      pics: [BirdTracker1],
+      strArray: ['B', 'i', 'r', 'd', ' ', 'T', 'r', 'a', 'c', 'k', 'e', 'r'],
+      site: 'https://birbstracker.netlify.app',
     },
   ]);
 
