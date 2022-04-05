@@ -1,14 +1,20 @@
 .work-gallery {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
+
+  overflow: auto;
+
   ul {
     margin: 0px;
     padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
   }
   li {
-    margin: 0px;
+    margin: 8px;
     padding: 0px;
   }
   list-style: none;
@@ -19,5 +25,15 @@
   .work-pic {
     width: 300px;
     object-fit: contain;
+  }
+
+  .work {
+    h2 {
+      letter-spacing: 1rem;
+      color: white;
+    }
+    a {
+      text-decoration: none;
+    }
   }
 }

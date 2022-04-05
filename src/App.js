@@ -1,4 +1,4 @@
-// import './assets/styles/main.scss';
+import './assets/styles/main.scss';
 import './App.scss';
 import Layout from './components/Layout/Layout';
 import Homepage from './components/Homepage/Homepage';

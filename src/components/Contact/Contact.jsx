@@ -8,6 +8,7 @@ import Loader from 'react-loaders';
 const Contact = () => {
   const [letterClass, setLetterClass] = useState('text-animate');
   const form = useRef();
+  const API = process.env.REACT_APP_API;
 
   useEffect(() => {
     return setTimeout(() => {
@@ -96,10 +97,6 @@ const Contact = () => {
           <span>NadavInbar8@gmail.com</span>
         </div>
         <div className='map-wrap'>
-          {/* <img
-            src={`https://maps.googleapis.com/maps/api/staticmap?center=${lat},${lng}&zoom=4&size=400x400&maptype=roadmap&markers=color:red%7Clabel:%7C${lat},${lng}&key=AIzaSyDtlDaW_mjPqd70Gqryet8e-azrySuneyw`}
-            alt='Map'
-          /> */}
           <iframe
             title='map'
             width='100%'
@@ -107,8 +104,7 @@ const Contact = () => {
             loading='lazy'
             allowFullScreen
             referrerPolicy='no-referrer-when-downgrade'
-            src='https://www.google.com/maps/embed/v1/place?key=AIzaSyD0FdHD59jd_JPQ9x7_Q0gydZfT3_OcrDs
-    &q=32.03264839809474,34.88017259188287'
+            src={`https://www.google.com/maps/embed/v1/place?key=${API}&q=32.03264839809474,34.88017259188287`}
           ></iframe>
         </div>
       </div>
