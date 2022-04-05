@@ -30,8 +30,8 @@ const About = () => {
             the desire to grow professionally.
           </p>
           <p align='LEFT'>
-            I'm confident in my work, curious about learning more, and and
-            always trying to grow professionally.
+            I'm confident in my work, curious about learning more, and always
+            trying to grow professionally.
           </p>
           <p>
             Additionally, I’m a volleyball player (and manager), former robotics

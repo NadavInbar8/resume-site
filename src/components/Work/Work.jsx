@@ -58,25 +58,6 @@ const Work = () => {
               </li>
             ))}
           </ul>
-          {/* <p>
-            I'm Junior Full-stack developer with one year of experience,
-            Passionate about technology, striving to be the best, fast
-            self-learner, and a team player determined and hardworking and have
-            the desire to grow professionally.
-          </p>
-          <p align='LEFT'>
-            I'm confident in my work, curious about learning more, and and
-            always trying to grow professionally.
-          </p>
-          <p>
-            Additionally, I’m a volleyball player (and manager), former robotics
-            team leader (First Robotics Competitions).
-          </p>
-        </div>
-
-        <div className='profile-cont'>
-          <img className='profile-pic' src={profile} alt='Profile' />
-        </div> */}
         </div>
       </div>
       <Loader type='pacman' />
