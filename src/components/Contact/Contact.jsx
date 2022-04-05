@@ -104,7 +104,7 @@ const Contact = () => {
             loading='lazy'
             allowFullScreen
             referrerPolicy='no-referrer-when-downgrade'
-            src={`https://www.google.com/maps/embed/v1/place?key=${API}&q=32.03264839809474,34.88017259188287`}
+            src={`https://www.google.com/maps/embed/v1/place?key=${API}&q=32.0853,34.7818`}
           ></iframe>
         </div>
       </div>
