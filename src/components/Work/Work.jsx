@@ -7,6 +7,8 @@ import LoRGuardian3 from '../../assets/pics/LoR-Guardian-3.jpg';
 import Taskflow1 from '../../assets/pics/Taskflow-1.jpg';
 import Taskflow2 from '../../assets/pics/Taskflow-2.jpg';
 import BirdTracker1 from '../../assets/pics/BirdTracker-1.jpg';
+import ReactPiano from '../../assets/pics/ReactPiano.jpg';
+import ReactCarousel from '../../assets/pics/React-Carousel.jpg';
 import './Work.scss';
 
 const Work = () => {
@@ -30,6 +32,33 @@ const Work = () => {
       pics: [BirdTracker1],
       strArray: ['B', 'i', 'r', 'd', ' ', 'T', 'r', 'a', 'c', 'k', 'e', 'r'],
       site: 'https://birbstracker.netlify.app',
+    },
+    {
+      name: 'Simple Piano',
+      pics: [ReactPiano],
+      strArray: ['S', 'i', 'm', 'p', 'l', 'e', ' ', 'P', 'i', 'a', 'n', 'o'],
+      site: 'https://simplereactcarousel.netlify.app',
+    },
+    {
+      name: 'React Carousel',
+      pics: [ReactCarousel],
+      strArray: [
+        'R',
+        'e',
+        'a',
+        'c',
+        't',
+        ' ',
+        'C',
+        'a',
+        'r',
+        'o',
+        'u',
+        's',
+        'e',
+        'l',
+      ],
+      site: 'https://simplereactpiano.netlify.app',
     },
   ]);
 
