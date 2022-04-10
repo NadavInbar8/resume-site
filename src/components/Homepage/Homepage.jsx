@@ -41,36 +41,8 @@ const Home = () => {
     'r',
     '.',
   ];
-  const jobArrayPhone = [
-    'F',
-    'u',
-    'l',
-    'l',
-    's',
-    't',
-    'a',
-    'c',
-    'k',
-    ' ',
-    ' ',
-    ' ',
-    ' ',
-    ' ',
-    ' ',
-    ' ',
-    ' ',
-    ' ',
-    'd',
-    'e',
-    'v',
-    'e',
-    'l',
-    'o',
-    'p',
-    'e',
-    'r',
-    '.',
-  ];
+  const jobArrayPhone1 = ['F', 'u', 'l', 'l', 's', 't', 'a', 'c', 'k'];
+  const jobArrayPhone2 = ['d', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r', '.'];
 
   useEffect(() => {
     return setTimeout(() => {
@@ -102,8 +74,14 @@ const Home = () => {
             />
             <AnimatedLetters
               letterClass={letterClass}
-              strArray={jobArrayPhone}
+              strArray={jobArrayPhone1}
               idx={22}
+              display='jobArrayPhone'
+            />
+            <AnimatedLetters
+              letterClass={letterClass}
+              strArray={jobArrayPhone2}
+              idx={30}
               display='jobArrayPhone'
             />
           </h1>
