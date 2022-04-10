@@ -24,7 +24,7 @@
     &:before {
       content: '<h1>';
       font-family: 'Montserrat';
-      color: #a80000;
+      color: #c62828;
       font-size: 18px;
       position: absolute;
       margin-top: -40px;
@@ -36,7 +36,7 @@
       content: '</h1>';
       font-family: 'Montserrat';
 
-      color: #a80000;
+      color: #c62828;
       font-size: 18px;
       position: absolute;
       margin-top: 18px;
@@ -66,21 +66,21 @@
   }
 
   .flat-button {
-    color: #a80000;
+    color: #c62828;
     font-size: 13px;
     font-weight: 400;
     letter-spacing: 4px;
     font-family: 'Bakbak One';
     text-decoration: none;
     padding: 10px 18px;
-    border: 1px solid #a80000;
+    border: 1px solid #c62828;
     margin-top: 25px;
     float: left;
     animation: fadeInAnimation 1s 1.8s backwards;
     white-space: nowrap;
 
     &:hover {
-      background: #a80000;
+      background: #c62828;
       color: #333;
     }
   }
