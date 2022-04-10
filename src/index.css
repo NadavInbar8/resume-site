@@ -12,3 +12,8 @@ body {
   overflow: hidden;
   display: block;
 }
+@media screen and (max-width: 600px) {
+  body {
+    overflow-y: auto;
+  }
+}

@@ -41,6 +41,36 @@ const Home = () => {
     'r',
     '.',
   ];
+  const jobArrayPhone = [
+    'F',
+    'u',
+    'l',
+    'l',
+    's',
+    't',
+    'a',
+    'c',
+    'k',
+    ' ',
+    ' ',
+    ' ',
+    ' ',
+    ' ',
+    ' ',
+    ' ',
+    ' ',
+    ' ',
+    'd',
+    'e',
+    'v',
+    'e',
+    'l',
+    'o',
+    'p',
+    'e',
+    'r',
+    '.',
+  ];
 
   useEffect(() => {
     return setTimeout(() => {
@@ -58,10 +88,6 @@ const Home = () => {
             <br />
             <span className={`${letterClass} _13`}>I</span>
             <span className={`${letterClass} _14`}>'m&nbsp;</span>
-            {/* <img
-              src={LogoTitle}
-              alt='JavaScript Developer Name, Web Developer Name'
-            /> */}
             <AnimatedLetters
               letterClass={letterClass}
               strArray={nameArray}
@@ -72,6 +98,13 @@ const Home = () => {
               letterClass={letterClass}
               strArray={jobArray}
               idx={22}
+              display='jobArray'
+            />
+            <AnimatedLetters
+              letterClass={letterClass}
+              strArray={jobArrayPhone}
+              idx={22}
+              display='jobArrayPhone'
             />
           </h1>
           <h2>

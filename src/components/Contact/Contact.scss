@@ -113,3 +113,33 @@
     }
   }
 }
+
+@media screen and (max-width: 600px) {
+  .info-map,
+  .map-wrap {
+    display: none;
+  }
+  .container.contact-page {
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    align-items: center;
+    .text-zone {
+      width: 90%;
+      height: 100%;
+      position: relative;
+      left: 0;
+      // top: 85%;
+      h1 {
+        position: relative;
+        left: 10px;
+      }
+    }
+  }
+  .contact-form {
+    .flat-button {
+      float: left;
+      width: 100%;
+    }
+  }
+}

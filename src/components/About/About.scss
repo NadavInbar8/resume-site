@@ -23,3 +23,31 @@
 .container.about-page .text-zone p {
   font-family: 'Montserrat';
 }
+@media screen and (max-width: 600px) {
+  .container.about-page {
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
+    .text-zone {
+      width: 90%;
+      height: 100%;
+      position: relative;
+      top: 85%;
+    }
+    .profile-cont {
+      top: 0px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+    .profile-pic {
+      height: 250px;
+      width: 250px;
+      position: absolute;
+      top: 0;
+      // transform: translateX(-50%);
+      z-index: 9999;
+    }
+  }
+}

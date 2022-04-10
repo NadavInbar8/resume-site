@@ -155,3 +155,37 @@
     }
   }
 }
+
+@media screen and (max-width: 600px) {
+  .container.work-page {
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
+    * {
+      overflow-x: none;
+    }
+    .text-zone {
+      width: 100%;
+      height: 100%;
+      position: relative;
+      top: 50%;
+      left: 0%;
+
+      .title-text {
+        position: relative;
+        left: 10%;
+        max-width: 90vw;
+      }
+    }
+    .work-gallery {
+      flex-direction: column;
+      justify-content: center;
+      width: 100%;
+
+      li {
+        margin: 30px 0px;
+      }
+    }
+  }
+}
