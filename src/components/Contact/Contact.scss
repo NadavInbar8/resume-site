@@ -57,12 +57,12 @@
   }
 
   .flat-button {
-    color: #ac2000;
+    color: #03dac5;
     font-size: 14px;
     letter-spacing: 2px;
     text-decoration: none;
     padding: 8px 10px;
-    border: 2px solid #ac2000;
+    border: 2px solid #03dac5;
     float: left;
     border-radius: 4px;
     background: 0 0;
@@ -71,6 +71,10 @@
     text-align: center;
     margin-right: 10px;
     font-family: 'Bakbak One';
+    &:hover {
+      background: #03dac5;
+      color: #333;
+    }
   }
 }
 
@@ -109,7 +113,7 @@
     font-size: 16px;
 
     span {
-      color: #ac2000;
+      color: #03dac5;
     }
   }
 }
@@ -140,6 +144,10 @@
     .flat-button {
       float: left;
       width: 100%;
+      &:hover {
+        background: #03dac5;
+        color: #333;
+      }
     }
   }
 }

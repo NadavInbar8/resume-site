@@ -1,7 +1,7 @@
 .container.work-page {
   .text-zone {
     position: absolute;
-    left: 5%;
+    left: 10%;
     top: 50%;
     transform: translateY(-50%);
     width: 100%;
@@ -12,8 +12,7 @@
     h1 {
       font-size: 53px;
       font-family: 'Montserrat';
-      left: 5%;
-      color: #c62828;
+      color: #fff;
       font-weight: 400;
       margin-top: 0;
       position: relative;
@@ -24,7 +23,7 @@
         content: '<h1>';
         font-family: 'Montserrat';
 
-        color: #c62828;
+        color: #bb86fc;
         font-size: 18px;
         position: absolute;
         margin-top: -10px;
@@ -37,7 +36,7 @@
         content: '</h1>';
         font-family: 'Montserrat';
 
-        color: #c62828;
+        color: #bb86fc;
         font-size: 18px;
         line-height: 18px;
         position: absolute;

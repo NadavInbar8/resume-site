@@ -1,5 +1,5 @@
-import './assets/styles/main.scss';
 import './App.scss';
+import './assets/styles/main.scss';
 import Layout from './components/Layout/Layout';
 import Homepage from './components/Homepage/Homepage';
 import About from './components/About/About';

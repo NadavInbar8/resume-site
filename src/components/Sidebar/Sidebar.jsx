@@ -14,16 +14,18 @@ import { Link, NavLink } from 'react-router-dom';
 const Sidebar = () => {
   return (
     <div className='nav-bar'>
-      <Link className='logo' to='/'></Link>
       <nav>
         <NavLink exact='true' activeclassname='active' to='/'>
           <FontAwesomeIcon icon={faHome} color='#4d4d4e' />
+          <span>Home</span>
         </NavLink>
         <NavLink activeclassname='active' className='about-link' to='/about'>
           <FontAwesomeIcon icon={faUser} color='#4d4d4e' />
+          <span>About</span>
         </NavLink>
         <NavLink activeclassname='active' className='work-link' to='/work'>
           <FontAwesomeIcon icon={faScroll} color='#4d4d4e' />
+          <span>Work</span>
         </NavLink>
         <NavLink
           activeclassname='active'
@@ -31,6 +33,7 @@ const Sidebar = () => {
           to='/contact'
         >
           <FontAwesomeIcon icon={faEnvelope} color='#4d4d4e' />
+          <span>Contact</span>
         </NavLink>
       </nav>
       <ul>

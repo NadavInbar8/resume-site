@@ -18,17 +18,21 @@
 }
 
 .tags {
-  color: #c62828;
+  color: #bb86fc;
   // opacity: 0.6;
   position: absolute;
   bottom: 0;
-  left: 120px;
+  left: 150px;
   font-size: 18px;
   font-family: 'Montserrat';
 }
 
 .bottom-tag-html {
+  bottom: 35px;
   margin-left: -20px;
+}
+.bottom-tags {
+  bottom: 70px;
 }
 
 .container {
@@ -62,7 +66,7 @@
       font-size: 53px;
       font-family: 'Montserrat';
 
-      color: #c62828;
+      color: #fff;
       font-weight: 400;
       margin-top: 0;
       position: relative;
@@ -73,7 +77,7 @@
         content: '<h1>';
         font-family: 'Montserrat';
 
-        color: #c62828;
+        color: #bb86fc;
         font-size: 18px;
         position: absolute;
         margin-top: -10px;
@@ -86,7 +90,7 @@
         content: '</h1>';
         font-family: 'Montserrat';
 
-        color: #c62828;
+        color: #bb86fc;
         font-size: 18px;
         line-height: 18px;
         position: absolute;
