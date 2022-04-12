@@ -1,0 +1,32 @@
+.phone-work-sec {
+  display: none;
+}
+
+/* 
+#03dac5;
+#f72f92;
+*/
+
+.fp-controlArrow {
+  cursor: pointer;
+}
+.fp-controlArrow.fp-prev {
+  left: 15px;
+  width: 0;
+  border-width: 20px 15px 20px 0;
+  border-color: transparent #fff transparent transparent;
+}
+.fp-controlArrow.fp-next {
+  right: 15px;
+  border-width: 20px 0 20px 15px;
+  border-color: transparent transparent transparent #fff;
+}
+
+@media screen and (max-width: 600px) {
+  .work-sec {
+    display: none;
+  }
+  .phone-work-sec {
+    display: block;
+  }
+}

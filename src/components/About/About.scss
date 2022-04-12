@@ -35,21 +35,21 @@
       width: 90%;
       height: 100%;
       position: relative;
-      top: 85%;
+      top: 75%;
+      left: 7%;
     }
     .profile-cont {
       top: 0px;
       width: 100%;
       display: flex;
       justify-content: center;
+      height: 205px;
     }
     .profile-pic {
-      height: 250px;
-      width: 250px;
+      height: 175px;
+      width: 175px;
       position: absolute;
       top: 0;
-      // transform: translateX(-50%);
-      z-index: 9999;
     }
   }
 }

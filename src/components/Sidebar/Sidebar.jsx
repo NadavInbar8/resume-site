@@ -36,7 +36,13 @@ const Sidebar = () => {
           <span>About</span>
         </NavLink>
         <NavLink
-          className={location.hash === '#work' ? 'work-link clicked' : ''}
+          className={
+            location.hash === '#work' ||
+            location.hash === '#work/1' ||
+            location.hash === '#work/2'
+              ? 'work-link clicked'
+              : ''
+          }
           activeclassname='active'
           to='/#work'
           onClick={() => window.fullpage_api.moveTo('work')}
