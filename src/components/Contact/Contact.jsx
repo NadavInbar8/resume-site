@@ -49,8 +49,9 @@ const Contact = () => {
             />
           </h1>
           <p>
-            I am interested in full-time Fullstack / Frontend oriented job. However, if you have other request or question,
-            don't hesitate to contact me using below form either.
+            I am interested in full-time Fullstack / Frontend oriented job.
+            However, if you have other request or question, don't hesitate to
+            contact me using below form either.
           </p>
           <div className='contact-form'>
             <form ref={form} onSubmit={sendEmail}>
@@ -89,7 +90,7 @@ const Contact = () => {
           </div>
         </div>
         <div className='info-map'>
-          Yehud, Central,
+          Tel-Aviv, Central,
           <br />
           Israel,
           <br />
@@ -103,7 +104,7 @@ const Contact = () => {
             loading='lazy'
             allowFullScreen
             referrerPolicy='no-referrer-when-downgrade'
-            src={`https://www.google.com/maps/embed/v1/place?key=${API}&q=32.0853,34.7818`}
+            src={`https://www.google.com/maps/embed/v1/place?key=${API}&q=32.0853,34.7818&zoom=15`}
           ></iframe>
         </div>
       </div>

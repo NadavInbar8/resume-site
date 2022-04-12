@@ -1,8 +1,9 @@
-import { Outlet } from 'react-router-dom';
+// import { Outlet } from 'react-router-dom';
 import Sidebar from '../Sidebar/Sidebar.jsx';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import './Layout.scss';
+import FullpageWrapper from '../FullpageWrapper/FullpageWrapper.jsx';
 
 const Layout = () => {
   return (
@@ -35,8 +36,8 @@ const Layout = () => {
         <span className='tags top-tag-html'>&lt;html&gt;</span>
         <br />
         <span className='tags top-tag-body '>&lt;body&gt;</span>
-
-        <Outlet />
+        <FullpageWrapper />
+        {/* <Outlet /> */}
         <span className='tags bottom-tags'>&lt;/body&gt;</span>
         <br />
         <span className='tags bottom-tag-html'>&lt;/html&gt;</span>

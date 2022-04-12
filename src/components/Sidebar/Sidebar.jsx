@@ -9,28 +9,46 @@ import {
   faScroll,
 } from '@fortawesome/free-solid-svg-icons';
 
-import { NavLink } from 'react-router-dom';
+import { NavLink, useLocation } from 'react-router-dom';
 
 const Sidebar = () => {
+  const location = useLocation();
+
   return (
     <div className='nav-bar'>
       <nav>
-        <NavLink exact='true' activeclassname='active' to='/'>
+        <NavLink
+          exact='true'
+          to='/#home'
+          className={location.hash === '#home' ? 'clicked' : ''}
+          onClick={() => window.fullpage_api.moveTo('home')}
+        >
           <FontAwesomeIcon icon={faHome} color='#4d4d4e' />
           <span>Home</span>
         </NavLink>
-        <NavLink activeclassname='active' className='about-link' to='/about'>
+        <NavLink
+          className={location.hash === '#about' ? 'about-link clicked' : ''}
+          activeclassname='active'
+          to='/#about'
+          onClick={() => window.fullpage_api.moveTo('about')}
+        >
           <FontAwesomeIcon icon={faUser} color='#4d4d4e' />
           <span>About</span>
         </NavLink>
-        <NavLink activeclassname='active' className='work-link' to='/work'>
+        <NavLink
+          className={location.hash === '#work' ? 'work-link clicked' : ''}
+          activeclassname='active'
+          to='/#work'
+          onClick={() => window.fullpage_api.moveTo('work')}
+        >
           <FontAwesomeIcon icon={faScroll} color='#4d4d4e' />
           <span>Work</span>
         </NavLink>
         <NavLink
+          className={location.hash === '#contact' ? 'contact-link clicked' : ''}
           activeclassname='active'
-          className='contact-link'
-          to='/contact'
+          to='/#contact'
+          onClick={() => window.fullpage_api.moveTo('contact')}
         >
           <FontAwesomeIcon icon={faEnvelope} color='#4d4d4e' />
           <span>Contact</span>

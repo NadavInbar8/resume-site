@@ -22,7 +22,11 @@
       }
     }
   }
-
+  &:hover {
+    background-color: #2a2c2e;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
   nav {
     display: block;
     text-align: center;
@@ -51,8 +55,10 @@
         color: #03dac5;
       }
 
-      &.active {
+      &.clicked {
         color: #03dac5;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
       }
 
       svg {
@@ -182,7 +188,7 @@
         }
       }
 
-      a.active {
+      a.clicked {
         svg {
           color: #03dac5;
         }
