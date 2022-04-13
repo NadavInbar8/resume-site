@@ -20,11 +20,7 @@ const Sidebar = () => {
         <NavLink
           exact='true'
           to='/#home'
-          className={
-            location.hash === '#home' || location.pathname === '/'
-              ? 'clicked'
-              : ''
-          }
+          className={location.hash === '#home' ? 'clicked' : ''}
           onClick={() => window.fullpage_api.moveTo('home')}
         >
           <FontAwesomeIcon icon={faHome} color='#4d4d4e' />

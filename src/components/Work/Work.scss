@@ -91,7 +91,7 @@
         transition: 0.5s ease-in-out;
       }
       p {
-        font-size: 18px;
+        font-size: 16px;
         color: #fff;
         font-family: 'Montserrat';
         max-width: fit-content;
@@ -109,13 +109,14 @@
 
   li:hover {
     .work-pic {
-      width: 400px;
+      width: 325px;
       transition: 0.5s ease-in-out;
-      max-height: 200px;
+      max-height: 160px;
     }
     .description {
-      width: 400px;
-      height: 200px;
+      width: 325px;
+      // max-height: 200px;
+      height: 161px;
       background-color: rgba(0, 0, 0, 0.781);
       .work-name {
         position: absolute;
